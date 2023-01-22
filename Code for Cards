@@ -1,0 +1,72 @@
+                                <li>
+                                    <div class="card">
+                                        <img src="categories/GameDeveloping.png" alt="GameDevUnsplashImage">
+                                        <div class="card-content">
+                                                <h1>Developing Games</h1>
+                                                    <p>Click here if you want to search for Game Developers</p>
+                                                        <button><a href="search/gamedev">Search</a></button>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="card">
+                                        <img src="categories/WEBDeveloping.png" alt="GameDevUnsplashImage">
+                                        <div class="card-content">
+                                                <h1>Website Creators</h1>
+                                                    <p>Click here if you want to search for Website creators (HTML and CSS)</p>
+                                                        <button><a href="search/websitedev">Search</a></button>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                
+                            <li>
+                                <div class="card">
+                                    <img src="categories/pythondeveloping.png" alt="GameDevUnsplashImage">
+                                    <div class="card-content">
+                                            <h1>Python Developers</h1>
+                                                <p>Click here if you want to search for Python Developers</p>
+                                                    <button><a href="search/pythondev">Search</a></button>
+                                    </div>
+                                </div>
+                            </li>
+
+                            
+                            <li>
+                                <div class="card">
+                                    <img src="https://source.unsplash.com/1600x900/?3ddesign" alt="GameDevUnsplashImage">
+                                    <div class="card-content">
+                                            <h1>3D Designer</h1>
+                                                <p>Click here if you want to search for 3D Design</p>
+                                                    <button><a href="search/3ddesign">Search</a></button>
+                                    </div>
+                                </div>
+                            </li>
+
+                            
+                            <li>
+                                <div class="card">
+                                    <img src="https://source.unsplash.com/1600x900/?android" alt="GameDevUnsplashImage">
+                                    <div class="card-content">
+                                            <h1>Android Developers</h1>
+                                                <p>Click here if you want to search for Android Developers</p>
+                                                    <button><a href="search/androidappdev">Search</a></button>
+                                    </div>
+                                </div>
+                            </li>
+
+                            
+                            <li>
+                                <div class="card">
+                                    <img src="https://source.unsplash.com/1600x900/?iphone" alt="GameDevUnsplashImage">
+                                    <div class="card-content">
+                                            <h1>iOS Developers</h1>
+                                                <p>Click here if you want to search for game developers</p>
+                                                    <button><a href="search/iosappdev">Search</a></button>
+                                    </div>
+                                </div>
+                            </li>
+                            
+                            
+                            cards

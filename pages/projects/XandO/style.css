@@ -1,0 +1,121 @@
+body {
+    background-image: url(xaando.png);
+    font-family: "consolas";
+    background-position: center;
+    background-repeat: 0;
+    background-attachment: inherit;
+    
+}
+.box{
+    padding: 15px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(14, 166, 180);
+    margin-right: 14px;
+    margin-bottom : 14px;
+    border: 14px double #000000;
+    border-radius: 29px;
+    display: flex;
+    justify-content: center;
+    transition: all 0.4s linear;
+    align-items: center;
+    font-size: 66px;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px rgba(255, 255, 0, 0.156), 0 -10px 20px #ff800034, 0 -18px 40px rgba(255, 0, 0, 0.216), -1px 8px 5px #0000009a;
+    
+}
+
+.box:hover{
+    padding: 17px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(14, 166, 180);
+    margin-right: 14px;
+    margin-bottom : 14px;
+    border: 14px double #424242;
+    border-radius: 46px;
+    display: flex;
+    justify-content: center;
+    transition: all 0.4s linear;
+    align-items: center;
+    font-size: 67px;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px rgba(255, 255, 0, 0.586), 0 -10px 20px #ff800034, 0 -18px 40px rgba(255, 0, 0, 0.216), -1px 8px 5px #0000009a;
+    
+}
+
+
+.X {
+    color: rgba(253, 117, 38, 0.958);
+}
+
+.O {
+    color: rgba(0, 180, 230, 0.958)
+}
+.row {
+    display: flex;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70;
+        flex-shrink: initial;
+}
+
+.text {
+    font-size: 50px;
+    text-shadow: 0 -1px 4px rgba(255, 170, 0, 0.804), 0 -2px 10px rgba(255, 255, 0, 0.156), 0 -10px 20px #ff8000aa, 0 -18px 40px rgba(255, 0, 0, 0.216), -1px 8px 5px #0000009a;
+    color:white;
+    padding: 50;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        z-index: 300;
+        visibility: hidden;
+        
+
+}
+
+button {
+    padding: 15px;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 111, 0, 0.678);
+    margin-right: 14px;
+    margin-bottom : 14px;
+    border: 14px double #1c1414b7;
+    border-radius: 30px;
+    display: flex;
+    color: rgba(194, 194, 194, 0.77);
+    justify-content: center;
+    transition: all 0.4s linear;
+    align-items: center;
+    font-size: 16px;
+    text-shadow: 0 -1px 4px rgb(162, 159, 159), 0 -2px 10px rgba(255, 255, 0, 0.156), 0 -10px 20px #4c2a0888, 0 -18px 40px rgba(255, 0, 0, 0.619), -1px 8px 5px #0000009a;
+    align-items: center;
+    text-align: center;
+    transition: 0.2s linear;
+    visibility: hidden;
+}
+
+button:hover {
+    padding: 15px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 111, 0);
+    margin-right: 14px;
+    margin-bottom : 14px;
+    border: 14px double #851615ef;
+    border-radius: 50px;
+    display: flex;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    transition: all 0.4s linear;
+    align-items: center;
+    font-size: 18px;
+    text-shadow: 0 -1px 4px rgb(162, 159, 159), 0 -2px 10px rgba(255, 255, 0, 0.156), 0 -10px 20px #4c2a0893, 0 -18px 40px rgb(255, 0, 0), -1px 8px 5px #9a4c4cce;
+    align-items: center;
+    text-align: center;
+    transition: all 0.4s linear;
+   
+}

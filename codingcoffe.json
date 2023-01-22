@@ -1,0 +1,83 @@
+{
+    "CSC project list": [
+        {
+            "name": "Game Development 3D",
+            "description": "Here are Unity 3D Game developers! ",
+            "coding languages":[
+                "C++","Java"
+            ],
+            "image": "categories/GameDeveloping.png",
+            "link": "" 
+        },
+
+        {
+            "name": "Game Development 2D",
+            "description": "Here and Unity 2D Game developers! ",
+            "coding languages":[
+                "C++","Java"
+            ],
+            "image": "categories/2dgame.jpg",
+            "link": ""
+        },
+
+        {
+            "name": "Web Developing",
+            "description": "Create a website like CodingCoffe with a WEB Developer!",
+            "coding languages":[
+                "HTML","CSS","JS"
+            ],
+            "image": "categories/WEBDeveloping.png",
+            "link": "" 
+        },
+
+        {
+            "name": "Python Developers",
+            "description": "Python can be used in a lot of ways including 'DiscordPY' , 'AI' , 'Smart APPs'",
+            "coding languages":[
+                "Python"
+            ],
+            "image": "categories/pythondeveloping.png",
+            "link": "" 
+        },
+
+        {
+            "name": "3D Designer",
+            "description": "3D Designing can be used in a various ways not only in 3D games but even in Making a REAL Product in IRL not just Digitaly",
+            "coding languages":[
+                "None"
+            ],
+            "image": "categories/3dDesign.jpg" ,
+            "link": ""
+        },
+
+        {
+            "name": "Android Developers",
+            "description": "Making apps or games for Android (Phones)",
+            "coding languages":[
+                " Objective-C, Swift and Java "
+            ],
+            "image": "categories/android.jpg" ,
+            "link": ""
+        },
+
+        {
+            "name": "iOS Developers",
+            "description": "Making apps or games for iOS or iPhone OS",
+            "coding languages":[
+                " Objective-C, Swift and Java "
+            ],
+            "image": "categories/ios.png" ,
+            "link": ""
+        },
+
+        {
+            "name": "TEST",
+            "description": "TEST",
+            "coding languages":[
+                " TEST "
+            ],
+            "image": "categories/" ,
+            "link": ""
+        }
+
+    ]}

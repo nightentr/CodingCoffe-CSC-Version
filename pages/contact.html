@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Coffe - Contact</title>
+    
+    <link rel="stylesheet" href="../style.css">
+
+    <link rel="shortcut icon" href="../favicons/codingCoffeFAVICON.png" type="image/x-icon"> <!--Tiny icon in the tab menu-->
+
+    <style>
+        .nav-menu .nav-link[href^="contact"]{ 
+    color: rgba(236, 112, 10, 0.797);
+    letter-spacing: 1.7px;
+}
+    body{
+        align-items: center;
+        flex: auto;
+        flex-direction: column;
+        
+    }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="nav-menu">
+            <li>
+                <a href="../index.html" class="nav-link">HomePage</a>
+            </li>
+ 
+            <li>
+                <a href="buy.html" class="nav-link">Catalog</a>
+            </li>
+
+            <li>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+        </ul>
+        <span id="mode-toggle"></span>
+    </nav>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11016.319198533189!2d21.3139997!3d46.3479606!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4745bf1d9bfe9f1f%3A0xdd5f2e625a00f6a!2sMWstudios%20LLC!5e0!3m2!1sro!2sro!4v1671356305079!5m2!1sro!2sro" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+            <div class="container-contact">
+                    <h1>Contact us!</h1>
+                        <div class="contact-box">
+                            <h3>Send a Message to help us improve CodingCoffe</h3>
+                            <form>
+                                <h3>
+                    
+                                </h3>
+                                    <h5></h5>
+                    
+                                <div id="divname">
+                                    <label>Name</label>
+                                    <input type="text" placeholder="John Doe" id="name" class="">
+                                </div>
+                    
+                                <div id="divsubject">
+                                    <label>Subject</label>
+                                    <input type="text" placeholder="I am here to Suggest/Report/etc." id="subject">
+                                    
+                                </div>
+                    
+                                <div id="divmessage">
+                                    <label>Message</label>
+                                    <textarea name="Message" id="message" cols="50" rows="12" placeholder="Input here the message that do you want to say or even describe the problem/suggestion"></textarea>
+                                </div>
+                    
+                                <button type="submit" id="submit" class="submit">Submit</button>
+
+                                <h4>Warning the Email is not sending automatically Please when sending errors send with Google Mail / Gmail</h4>
+                            </form>
+                        </div>
+            </div>
+
+
+</body>
+<script src="../index.js"></script>
+<script src="../contact.js"></script>
+</html>

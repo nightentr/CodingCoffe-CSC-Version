@@ -1,0 +1,44 @@
+body {
+    background-color: #fff;
+    text-align: center;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    font-size: 22px;
+    transition: all 0.6s linear;
+}
+
+button {
+    font-size: 22px;
+}
+
+h1 {
+    color: rgba(249, 56, 85, 0.502);
+    font-size: 38px;
+}
+
+p {
+    color:rgba(246, 58, 86, 0.498);
+    font-size: 24px;
+    transition: all 0.6s linear;
+}
+
+p:hover {
+    transition: all 0.6s linear;
+    font-size:31px;
+}
+
+div {
+    /* background-image: url('laladf.jpg'); */
+    width: 1980;
+}
+
+.dm {
+    color: rgb(0, 0, 0);
+}
+

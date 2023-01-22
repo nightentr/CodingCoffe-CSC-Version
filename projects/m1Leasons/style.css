@@ -1,0 +1,62 @@
+body {
+    background-image: url("images/background.jpg"); /* background image bellow */
+    background-repeat: no-repeat;  /*The bg image is not repeated (preventing visual bugs)*/
+    background-size: cover; /*Making the background cover the entire page*/
+    background-color: rgb(129, 255, 255); /*Background color in case the img not loading*/
+    text-align: center;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.2s linear;
+    font-size: 15;
+    text-align: center; /*align everything in center*/
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(146, 252, 243);
+    transition: all 0.2s linear;
+    font-size: 24;
+    text-align: center; /*align everything in center*/
+}
+
+
+ul {
+    text-align: center; /*align everything in center*/
+    width: 700;
+    list-style: none;
+}
+
+
+.white {
+    text-align: center; /*align everything in center*/
+    color: white; 
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.green {
+    color: green;
+}
+
+.lime {
+    color: rgb(152, 247, 155);
+}
+
+.black {
+    color: black
+}
+
+li {
+    font-size: 40px;
+}

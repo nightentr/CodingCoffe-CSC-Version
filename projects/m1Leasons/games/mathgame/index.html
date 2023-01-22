@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en"> <!--The language of the page-->
+<head>
+    <meta charset="UTF-8"> <!--Just the font of the page-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MWstudios | Math Game </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="index.js" defer></script>
+</head>
+
+<body>
+    <div id="game">
+    <h1>Math Game</h1>
+
+    <div id="buttons"> <!-- BuTtOnS -->
+                    <h2>Difficulties :</h2>
+        <button class="a" onclick="newGame(10)" id="easy" >Easy</button>            
+        <button class="a" onclick="newGame(100)" id="medium" >Medium</button>            
+        <button class="a" onclick="newGame(1000)" id="hard" >Hard</button>
+
+    </div> <!--This div holds the buttons is pretty obvious because of the id-->
+
+    <div id="canvas">
+
+        <p id="green">
+            Score: <span id="score"></span>
+        </p>
+        <p id="problem">Solve This</p>
+    <input type="number" id="result" name="result" placeholder="Result here">
+            <button onclick="verifyResult()">Enter</button>
+    </div>
+
+    </div> <!--The main div who holds the entire math game into the body so yea-->
+
+</body>
+</html>
+
+
+

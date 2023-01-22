@@ -1,0 +1,140 @@
+<!-- Welcome to coding coffe source code yeah this is the exact same code as the original site so yeah you can just copy this oh i forgot we have something in the data base : shh :  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--This is making the page to be useable to other devices rather than pc-->
+    <title>CodingCoffe</title> <!--Title of the page-->
+
+    <link rel="stylesheet" href="style.css"> <!--CSS Linker-->
+
+    <link rel="shortcut icon" href="favicons/codingCoffeFAVICON.png" type="image/x-icon"> <!--Tiny icon in the tab menu-->
+
+    <style>
+        .nav-menu .nav-link[href^="buy"]{
+    color: rgba(236, 112, 10, 0.797);
+    letter-spacing: 1.7px;
+}
+    </style>
+</head>  
+<body>
+    <nav>
+        <ul class="nav-menu">   <!--Top navigation menu-->
+            <li>
+                <a href="index.html" class="nav-link">HomePage</a> <!--This is where you are-->
+            </li>
+
+            <li>
+                <a href="pages/buy.html" class="nav-link">Catalog</a>
+            </li>
+
+            <li>
+                <a href="pages/contact.html" class="nav-link">Contact</a>
+            </li>
+    
+        </ul>
+        <span id="mode-toggle"></span>
+    </nav>
+            <!--Jumbotron section-->
+    <div class="jumbotron-section">
+        <div class="overlay">
+    <h1>Welcome to <b>CodingCoffe</b> 
+    </h1> <p>Coding Coffe is the best place for developers to make a community </p>
+    <p>Made by MWstudios</p>
+    <button onclick="meet" class="abtn"><a href="pages/meet.html">Start Meeting</a></button>
+        </div>
+    </div>
+        <h1 class="pogoClassic"></h1>
+    <!-- Page content  -->
+    <section class="page-content">
+
+            <div class="page-content--text">
+                        <p class=" empty"><b>Coding Coffe</b></p>    
+                <p> 
+                     is the biggest community for developers it can help people find it's teamates. You can comunicate with other developers to form a Comunity or a Studio or even a dev</p>
+                    <p>So you can make your own Studio with other interested developers. Meet other developers in this website and people who know how to code</div></p>
+                
+                </div>
+
+                <img src="https://source.unsplash.com/692x350/?coding" alt="SiteImage"
+                class="page-content--img">
+                            
+    </section>
+    <!-- End page content  -->
+                        <h1 class="dots">------------------------------------------------------------------------------------------------------------------------------------</h1>
+
+                        <!--  -->
+
+                        <!-- Sectiune carduri    -->
+                        <section class="cards-container">
+                            <h2>Find a developer for...</h2>
+                            <ul class="cards-list">
+                                                                <!-- EVERYTHING IS IN DATABASE FOR OPTIONAL UPDATES -->
+                            </ul>
+                        </section>
+                            <!-- End Card Section -->
+                            
+    <!-- Sectiune Footer -->
+        <footer>
+            <p>©MWstudios LLC 2022 <img src="logos/mwStudiosCCspecial.png" alt="mwstudiosLOGO" width="120"> </p>
+            
+        </footer>
+    <!-- End Sectiune Footer -->
+
+    <script src="index.js"></script> <!--Javascript linker-->
+
+    <!-- Import firebase -->
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js";
+        import { getDatabase, ref, child,get} from "https://www.gstatic.com/firebasejs/9.14.0/firebase-database.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+          apiKey: "AIzaSyDcWXegN35EeIMbmIsU6vW2gPucrgsQsiU",
+          authDomain: "codingcoffe-d6dd7.firebaseapp.com",
+          databaseURL: "https://codingcoffe-d6dd7-default-rtdb.europe-west1.firebasedatabase.app",
+          projectId: "codingcoffe-d6dd7",
+          storageBucket: "codingcoffe-d6dd7.appspot.com",
+          messagingSenderId: "414829763041",
+          appId: "1:414829763041:web:866f1ed91f479c3d351aa0"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        // Initialize database
+        const database = getDatabase(app);
+        // Refer to database
+        const dbRef = ref(database);
+
+        get(child(dbRef, "CSC project list"))
+        .then(function (data){
+            if (data.exists()) {
+                const projectList = data.val()
+                console.log(projectList);
+
+                // Pentru fiecare proiect din lista generam un card folosind functia generateCard din app.js
+                projectList.forEach(function(project){
+                    generateCard(project);
+                    console.log(project)
+                })
+            }
+            else{
+                console.log("No data was found")
+                    console.log("Try Again")
+            }
+        })
+
+        .catch(function(error){
+            console.log(error) // catching error and showing it onto the console
+        })
+      </script>
+
+</body>
+</html>
+
+<!-- Finish code for coding coffe lol s -->
