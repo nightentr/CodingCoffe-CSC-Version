@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    color: black;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, red,blue )
+    
+}
+
+h1 {
+    transition: all 0.3s linear;
+    width: 100%;
+    margin: 0;
+    padding-top: 10px;
+}
+
+h2 {
+    font: bold 2em 'Consolas' 
+}
+article {
+    user-select: all;
+}
+
+button {
+    text-align: center;
+    border: 1px solid black;
+    background: linear-gradient(to right, rgb(254, 206, 2rgba(206, 206, 255, 0.916)916) );
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.9s linear;
+    width: 100px;
+    height: 100px;
+    
+}
+
+button:hover {
+    background: linear-gradient(to right, rgb(119, 231, 140),rgba(65, 233, 210, 0.916));
+    transition: all 1.2s linear;
+    transform: rotate(360deg);
+}
